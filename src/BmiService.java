@@ -1,10 +1,9 @@
 public class BmiService {
     public int calculate(double weight, double height) {
         double x;
-        double a1 = height;
-        double b1 = 2;
-        double y = Math.pow(a1, b1); // возведение числа в квадрате(рост)
-        x = weight / y;
+        double y = 2;
+        double z = Math.pow(height, y); // возведение числа в квадрате(рост)
+        x = weight / z;
         int result = (int) x;
         return result;
 
